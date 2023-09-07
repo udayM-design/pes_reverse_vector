@@ -4,6 +4,7 @@ The term "reverse vector" itself is not standard terminology in computer science
 For example, if you have a vector with elements [1, 2, 3, 4, 5], reversing the vector would result in [5, 4, 3, 2, 1]. The order of the elements has been reversed.
 
 Reversing a vector can be a common operation in programming when you need to process data in the reverse order or when you want to reverse the order of elements for various reasons, such as user interface display, data manipulation, or algorithm requirements.
+### Simulation
 ```
 iverilog pes_reverse_vector.v pes_reverse_vector_tb.v
 ./a.out
@@ -12,8 +13,9 @@ gtkwave reverse_vector_tb.vcd
 ```
 
 ![image](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/f34a2b4a-52d1-4b14-a0ce-3cb27350d2dd)
-
+### Synthesis
 ```
+
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 read_verilog pes_reverse_ector.v
 synth -top VectorReverse
@@ -21,8 +23,9 @@ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 
 ```
-![image](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/ecd410e3-ef49-4459-9b28-5eb9872eef30)
 
+![image](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/ecd410e3-ef49-4459-9b28-5eb9872eef30)
+### Gate-Level Simulation
 ```
 iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v pes_reverse_vector_netlist.v pes_reverse_vector_tb.v
 ./a.out
