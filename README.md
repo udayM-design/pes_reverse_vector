@@ -170,7 +170,7 @@ prep -design pes_reverse_vector
 ```
 ![1_1](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/68396e23-4250-45a5-90b6-78549d1db011)
 
-[Back to top ](https://github.com/udayM-design/pes_reverse_vector/edit/main/README.md#rtl2gdsii---openlane)
+
 </details>
 
 <details>
