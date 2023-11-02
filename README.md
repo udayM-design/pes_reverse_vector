@@ -182,6 +182,8 @@ prep -design pes_reverse_vector
 run_synthesis
 ```
 ![2](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/0aeac14e-c2d2-4c59-b16e-d8555f0f16ad)
+![4](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/f54d7ef7-40d0-46c5-a3eb-135dc9cff12f)
+
 
 ## Floorplan
 ```
@@ -203,3 +205,36 @@ magic -T /home/uday/OpenLane/pdks/sky130A/sky130A/libs.tech/magic/sky130A.tech l
 ```
 run_placement
 ```
+![run_placemet](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/e6c23899-1ef6-493a-be77-ed12fd563904)
+
+```
+magic -T /home/uday/OpenLane/pdks/sky130A/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_reverse_vector.def &
+```
+![6](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/7ee475ec-ef89-4893-bb59-d18708982652)
+
+## CTS
+```
+run_cts
+```
+![run_cts](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/cda6635e-7f7a-45c3-bc16-8484afa59251)
+The reports generated are given below , after executing run_cts command
+![Screenshot from 2023-11-02 03-28-49](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/21e1228e-22cc-4cd6-a0e8-88f90299e9db)
+![Screenshot from 2023-11-02 03-29-02](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/ff98f61c-9f8c-4ca1-abb5-eb492e0c8886)
+![Screenshot from 2023-11-02 03-29-12](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/51ce1df0-11ff-41d3-a224-3d2673912cea)
+![Screenshot from 2023-11-02 03-29-21](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/2d4589f1-88fe-4574-a2ee-d5f65f8daf55)
+![Screenshot from 2023-11-02 03-29-31](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/9b2a533b-fc56-40eb-8358-96f7c52768f6)
+![Screenshot from 2023-11-02 03-29-50](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/cc456b3c-31e8-4708-9fac-af866acbcb09)
+
+## Routing
+```
+run_routing
+```
+![routing](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/79536aa0-2f5e-401d-9930-66d0044b2ff2)
+
+```
+magic -T /home/uday/OpenLane/pdks/sky130A/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_reverse_vector.def &
+```
+![Screenshot from 2023-11-02 03-30-57](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/92666eb8-debf-4b2f-9d34-ca9004f1b0ab)
+
+[Back to Top](https://github.com/udayM-design/pes_reverse_vector/edit/main/README.md#synthesis)
+</details>
