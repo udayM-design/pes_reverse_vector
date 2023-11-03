@@ -236,5 +236,4 @@ magic -T /home/uday/OpenLane/pdks/sky130A/sky130A/libs.tech/magic/sky130A.tech l
 ```
 ![Screenshot from 2023-11-02 03-30-57](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/92666eb8-debf-4b2f-9d34-ca9004f1b0ab)
 
-[Back to Top](https://github.com/udayM-design/pes_reverse_vector/edit/main/README.md#synthesis)
 </details>
