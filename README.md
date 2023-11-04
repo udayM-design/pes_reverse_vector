@@ -236,4 +236,26 @@ magic -T /home/uday/OpenLane/pdks/sky130A/sky130A/libs.tech/magic/sky130A.tech l
 ```
 ![Screenshot from 2023-11-02 03-30-57](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/92666eb8-debf-4b2f-9d34-ca9004f1b0ab)
 
+# Statistics
+
+## **Area**
+![area](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/c0a7ef9a-8b58-47f7-a119-8f9e98ca199f)
+
+![core_area](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/8b6604b7-e424-418e-ae28-4befa5ddffc6)
+
+## **Power**
+- Internal Power = 6.46e-0.4 W
+- Switching Power = 2.36e-0.4 W
+- Leakage Power = 1.88e-09 W 
+- Total Power = 8.82e-04W
+- watts = 100%
+
+![Screenshot from 2023-11-04 07-04-03](https://github.com/udayM-design/pes_reverse_vector/assets/93391726/5fe39ae3-0a41-4257-88a3-44c276ea0497)
+
+
+</details>  
 </details>
+
+</details>
+
+
