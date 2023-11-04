@@ -174,7 +174,7 @@ prep -design pes_reverse_vector
 </details>
 
 <details>
-<summary>Synthesis,Floorplan,Placement,CTS,Routing</summary>
+<summary>Synthesis,Floorplan,Placement,CTS,Routing,Statistics</summary>
 <br>
 
 ## Synthesis
